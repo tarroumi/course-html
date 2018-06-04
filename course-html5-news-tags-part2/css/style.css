@@ -1,0 +1,40 @@
+/* start style global*/
+*{
+  padding:0;
+  margin:0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+.clearfix{
+  clear: both;
+}
+
+/* start body style */
+body{
+  font-family: arial;
+}
+
+/* start header style */
+
+.main{
+  background-color: #f54;
+  padding: 20px;
+  color:#ddd;
+  text-align:center;
+}
+/* start navigation style */
+
+nav{
+  background-color: #ff5544db;
+}
+nav ul li {
+
+  color:#ddd;
+  display: inline-block;
+  margin:10px;
+  padding : 10px;
+}
+nav ul {
+  text-align: center;
+}
