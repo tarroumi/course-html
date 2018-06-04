@@ -1,0 +1,112 @@
+/*Start Global Style*/
+*{
+
+  padding:0;
+  margin:0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+.clearfix{
+  clear: both;
+}
+
+/*Start body Style*/
+body{
+  background-color: #ccc;
+}
+/*Start header Style*/
+.main{
+  text-align: center;
+    background-color: #0e71d873;
+    color: #fff;
+    padding:10px;
+    border:1px solid #fff;
+}
+
+header .imput{
+  border: 1px solid #fff;
+  margin:10px;
+  font-size: 20px;
+  color: #353a5491;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  }
+
+/*Start navbar Style*/
+nav{
+  background-color: #fff;
+}
+nav ul{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color: #797878;
+
+}
+nav ul li {
+  display: inline-block;
+  margin:10px;
+}
+
+/* start  article style  */
+.post{
+  margin: 2px;
+  width: 66%;
+  float: left;
+}
+article{
+  background-color: #fff;
+  height: 300px;
+  border : 1px solid #ccc;
+  margin : 25px;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+ article h3{
+   margin: 10px;
+    color: #3a3838bf;
+ }
+ article  input{
+   width: 200px;
+   height: 50px;
+   margin: 10px;
+   text-align: center;
+   font-size: 30px;
+ }
+ /* section */
+ section{
+   margin: 30px;
+   text-align: center;
+ }
+ section form {
+   display: inline-block;
+   margin:0;
+   padding:0;
+ }
+ /*Start aside style*/
+ aside ul{
+    list-style: none;
+    margin: 20px;
+    line-height: 1.8;
+    color: #76a3d1;
+    font-size: 14px;
+ }
+aside{
+
+  background-color: #fff;
+  width: 30%;
+  float: right;
+  height: 200px;
+  border : 1px solid #ccc;
+  margin : 25px;
+  padding: 10px;
+  border-radius: 10px;
+}
+aside h3{
+  margin: 10px;
+   color: #3a3838bf;
+}
